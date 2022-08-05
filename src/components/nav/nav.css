@@ -1,0 +1,258 @@
+.nav__container{
+    display:flex;
+    flex:1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    padding:4rem 6rem;
+    gap:1.5rem;
+  
+}
+
+.nav__logo{
+    width: 62.56px;
+    height: 16px;
+}
+
+.nav-links__container ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:1rem; 
+}
+
+.nav-links__container ul li a{
+    color:var(--clr-white); 
+    font-weight: 500;
+    font-size:18px;
+}
+
+.nav-auth__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+
+}
+
+.nav-auth__container .login__btn,
+.nav-auth__container .signup__btn{
+    border: none;
+    outline: none;
+    background: #FF4820;
+    color:var(--clr-white);
+    font-weight: 500;
+    font-size: 18px;
+    width: 152px;
+    height: 58px;
+    border-radius: 5px ;
+    
+}
+
+
+.nav-auth__container .login__btn{
+    background:var(--clr-white);
+    color:var(--clr-black);
+}
+
+
+.nav-menu__container{
+    display: none;
+}
+
+
+#menuOpen div{
+ transition: all 700ms ease;
+}
+
+#menuOpen div:first-child{
+    animation: rotatee 700ms ease forwards;
+}
+
+@keyframes rotatee {
+    100%{
+      transform: rotate(45deg) translateY(13px);
+
+    }
+}
+
+#menuOpen div:nth-child(2){
+    animation: slide_to_left 700ms ease forwards;
+}
+
+@keyframes slide_to_left {
+    100%{
+        transform: translate(-100%);
+        opacity: 0;
+    }
+}
+
+#menuOpen div:last-child{
+    animation: _rotatee 700ms ease forwards;
+}
+
+@keyframes _rotatee {
+    100%{
+        transform: rotate(-45deg) translateY(-13px);
+    }
+}
+
+.nav-menu__modal__container{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:851px) and (max-width:1060px) {
+    .nav-auth__container .login__btn,
+    .nav-auth__container .signup__btn {
+    width: 100px;
+    height: 45px;
+ }
+
+  .nav-links__container ul li a{
+    font-size: 13px;
+  }
+}
+
+
+
+@media screen and (max-width:850px) {
+
+    .nav__container{
+        padding: 4rem ;
+    }
+
+
+    .nav-links__container{
+        display: none;
+    }
+    
+    .nav-auth__container{
+        display: none;
+    }
+
+    .nav-menu__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:0.5rem;
+       
+    }
+
+    .nav-menu__container div{
+        background:var(--clr-white);
+        width: 30px;
+        height: 2px;
+       
+    }
+
+    .nav-menu__container div:first-child{
+        animation: rotate 700ms ease forwards;
+
+    }
+
+    
+    @keyframes rotate {
+        from{
+            transform: rotate(45deg) translateY(13px);
+           
+        }
+        to{
+            transform: rotate(0);
+           
+        }
+    }
+
+    .nav-menu__container div:nth-child(2){
+        animation: slide_to_right 700ms ease forwards;
+    }
+
+    @keyframes slide_to_right {
+        from{
+            transform: translate(-100%);
+            opacity: 0;
+        }
+        to{
+            transform: translate(0);
+            opacity: 1;
+        }
+    }
+
+    .nav-menu__container div:last-child{
+        animation: _rotate 700ms ease forwards;
+    }
+
+    @keyframes _rotate {
+        from{
+            transform: rotate(-45deg) translateY(-13px);
+         
+        }
+        to{
+            transform: rotate(0);
+           
+        }
+    }
+
+    .nav-menu__modal__container{
+        display: flex;
+        position:absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #131334;
+        transform: scale(0);
+        transition: all 700ms ease;
+        padding: 2rem 1rem;
+        right: 5%;
+        bottom: -270%;
+
+        animation: scale 700ms ease forwards;
+    }
+
+    @keyframes scale {
+        100%{
+            transform: scale(1);
+
+        }
+    }
+
+    .nav-menu__modal__container ul li{
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+    }
+
+    .nav-menu__modal__container ul li a{
+        color:var(--clr-white);
+        font-size: 18px;
+        margin: 1rem 0;
+    }
+
+    .nav-menu__modal__container ul button{
+        border: none;
+        outline: none;
+        background: #FF4820;
+        color: var(--clr-white);
+        font-weight: 500;
+        font-size: 18px;
+        width: 80px;
+        height: 30px;
+        border-radius: 5px;
+
+    }
+}
+
