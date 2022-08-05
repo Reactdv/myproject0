@@ -20,14 +20,15 @@ const Header = () => {
           <input type="email" placeholder='Enter email' />
           <button>Get Started</button>
         </div>
+        <div className="peoples__container">
+          <img src={peoples} alt="" />
+          <h3>1,600 people requested access a visit in last 24 hours</h3>
+        </div>
       </div>
       <div className="header-img__container">
         <img src={aiHead} alt="" className="header-ai__img" />
       </div>
-      <div className="peoples__container">
-        <img src={peoples} alt="" />
-        <h3>1,600 people requested access a visit in last 24 hours</h3>
-      </div>
+
     </div>
   )
 }
