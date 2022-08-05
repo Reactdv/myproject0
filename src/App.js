@@ -1,7 +1,7 @@
 
    import React from 'react'
    import './App.css'
-   import { Nav } from "./components"
+   import { Nav,Brand } from "./components"
    import { Header } from "./pages"
 
 
@@ -12,6 +12,7 @@
             <Nav />
             <Header />
          </div>
+            <Brand />
        </div>
       
      )
