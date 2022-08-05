@@ -2,7 +2,7 @@
    import React from 'react'
    import './App.css'
    import { Nav } from "./components"
-   import {} from "./pages"
+   import { Header } from "./pages"
 
 
     const App = () => {
@@ -10,6 +10,7 @@
        <div>
          <div>
             <Nav />
+            <Header />
          </div>
        </div>
       
