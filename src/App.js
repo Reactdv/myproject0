@@ -1,7 +1,7 @@
 
    import React from 'react'
    import './App.css'
-   import { Nav,Brand } from "./components"
+   import { Nav,Brand,CTA } from "./components"
    import { Header, Gpt3, Features, Possibility } from "./pages"
 
 
@@ -16,6 +16,7 @@
             <Gpt3 />
             <Features />
             <Possibility />
+            <CTA />
        </div>
       
      )
