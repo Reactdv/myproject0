@@ -26,6 +26,7 @@
     font-size: 16px;
     line-height: 30px;
     color: #FF8A71;
+    cursor: pointer;
 }
 
 .features__container div:last-child div{

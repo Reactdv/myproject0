@@ -69,6 +69,7 @@ flex-wrap: wrap;
     color: var(--clr-white);
     padding:1rem 0.5rem;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .peoples__container{

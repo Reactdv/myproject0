@@ -4,7 +4,7 @@ import { Feature  } from '../../components'
 
 const Gpt3 = () => {
   return (
-    <div className='gpt3__container section__padding'>
+    <div id='gpt3' className='gpt3__container section__padding'>
       <div className="gpt3-content__container section__padding">
         <div className="gpt3-top__section ">      
            <div>

@@ -33,9 +33,9 @@ const Nav = () => {
     <div className="nav-links__container">
         <ul>
             <li><a href="#home">Home</a></li>
-            <li><a href="#wgp3">What is GPT-3</a></li>
-            <li><a href="#open-ai">Open Ai</a></li>
-            <li><a href="#case-study">Case Study</a></li>
+            <li><a href="#gpt3">What is GPT-3</a></li>
+            <li><a href="#cta">Open Ai</a></li>
+            <li><a href="#possibility">Case Study</a></li>
             <li><a href="#library">Library</a></li>
 
         </ul>

@@ -1,0 +1,130 @@
+
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5rem;
+    background: var(--color-footer);
+    margin-top: 20rem;
+    
+}
+
+.footer-heading__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-heading__container h1{
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px; 
+    text-align: center;
+    letter-spacing: -0.04em;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.footer-heading__container div p{
+    font-size: 18px;
+        line-height: 21px;
+    
+        color: #FFFFFF;
+}
+
+.footer-heading__container div{
+    border:1px solid white ;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.footer-content__container{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.footer-content__container div:first-child{
+    font-family: 'Gilroy-Medium';
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.footer-content__container div:first-child img{
+    margin: 1rem 0;
+}
+
+.footer-content__container div ul li {
+    color:var(--clr-white);
+}
+
+
+.footer-content__container div ul li {
+    font-weight: 300;
+    font-size: 10px;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.footer-content__container div ul li:first-child {
+    font-size: 16px;
+    opacity: 1;
+}
+
+.rights__reserved{
+    color: var(--clr-white);
+}
+
+.rights__reserved__container{
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width:850px) {
+
+    .footer-heading__container h1{
+        font-size: 30px;
+    }
+
+    .footer-content__container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .footer-content__container div:first-child{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-content__container div:first-child img{
+        width: 118px;
+        height: 30px;
+    }
+
+    .footer-content__container div:first-child h5{
+        font-size: 8px;
+    }
+
+
+    .footer-content__container div ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rights__reserved{
+        font-size: 10px;
+    }
+}

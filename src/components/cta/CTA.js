@@ -3,7 +3,7 @@ import './cta.css'
 
 const CTA = () => {
   return (
-    <div className='cta__container section__padding'>
+    <div id='cta' className='cta__container section__padding'>
       <div className="cta-content__container section__padding">
          <div>
 
