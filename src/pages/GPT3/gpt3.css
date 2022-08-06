@@ -1,0 +1,118 @@
+.gpt3-content__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: var(--color-footer);
+    min-height: 100vh;
+    gap: 3rem;
+}
+
+.gpt3-top__section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 5rem;
+}
+
+
+.gpt3-top__section div p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #81AFDD;
+    
+}
+
+.gpt3-center__section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap:0.9rem;
+}
+
+.gpt3-center__section h1{
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 45px;
+    
+    
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+}
+
+.gpt3-center__section h5{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    
+}
+
+
+.gpt3-bottom__section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gpt3-bottom__section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.gpt3-bottom__section div p{
+    color: #81AFDD;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+
+
+@media screen and (max-width:850px){
+
+    .gpt3-top__section,
+    .gpt3-center__section,
+    .gpt3-bottom__section{
+        width: 80%;
+    }
+    
+
+    .gpt3-top__section {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .gpt3-center__section h5{
+        display: none;
+    }
+
+    .gpt3-bottom__section{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: auto;
+        gap: 2rem;
+    }
+
+    .gpt3-bottom__section div p{
+        font-size: 20px;
+    }
+}

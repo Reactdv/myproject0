@@ -11,7 +11,7 @@ const Nav = () => {
     <div className="nav-menu__modal__container">
       <ul>
          <li><a href="#home">Home</a></li>
-         <li><a href="#wgp3">What is GP3?</a></li>
+         <li><a href="#wgp3">What is GPT-3</a></li>
          <li><a href="#open-ai">Open Ai</a></li>
          <li><a href="#case-study">Case Study</a></li>
          <li><a href="#library">Library</a></li>
@@ -33,7 +33,7 @@ const Nav = () => {
     <div className="nav-links__container">
         <ul>
             <li><a href="#home">Home</a></li>
-            <li><a href="#wgp3">What is GP3?</a></li>
+            <li><a href="#wgp3">What is GPT-3</a></li>
             <li><a href="#open-ai">Open Ai</a></li>
             <li><a href="#case-study">Case Study</a></li>
             <li><a href="#library">Library</a></li>

@@ -8,7 +8,7 @@ const Header = () => {
     <div className='header__container section__padding'>
       <div className="header-content__container">
         <div className="title">
-           <h1>Let's build something amazing with GP3 open ai</h1>
+           <h1>Let's build something amazing with GPT-3 open ai</h1>
         </div>
         <div className="subtitle">
           <h3>Yet bed any for travelling assistance indulgence unpleasing.
