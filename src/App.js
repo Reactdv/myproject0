@@ -2,7 +2,7 @@
    import React from 'react'
    import './App.css'
    import { Nav,Brand } from "./components"
-   import { Header, Gpt3 } from "./pages"
+   import { Header, Gpt3, Features } from "./pages"
 
 
     const App = () => {
@@ -14,6 +14,7 @@
          </div>
             <Brand />
             <Gpt3 />
+            <Features />
        </div>
       
      )
